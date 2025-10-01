@@ -1,0 +1,12 @@
+.drawnNumber {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

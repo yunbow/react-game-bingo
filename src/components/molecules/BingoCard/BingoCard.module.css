@@ -1,0 +1,30 @@
+.bingoCard {
+  background-color: var(--color-card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  width: 350px;
+}
+
+.cardHeader {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+  font-weight: bold;
+}
+
+.headerCell {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 2px;
+  background-color: var(--color-border);
+  padding: 2px;
+}
