@@ -1,0 +1,53 @@
+.gameInfo {
+  flex: 1;
+  min-width: 300px;
+}
+
+.drawnNumbers, .currentNumber, .bingoStatus {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.drawnNumbers h2, .currentNumber h2, .bingoStatus h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.numbersList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.numberDisplay {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bold;
+  color: #e74c3c;
+  padding: 20px 0;
+}
+
+.status {
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.status.win {
+  color: #e74c3c;
+  font-size: 1.5rem;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
